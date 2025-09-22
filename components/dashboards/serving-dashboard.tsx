@@ -143,9 +143,9 @@ export function ServingDashboard({ userInfo }: ServingDashboardProps) {
         <div className="container mx-auto px-4 py-4">
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-4">
-              <Shield className="h-8 w-8 text-accent" />
+              <img src="./logo.png" alt="logo" className="w-10 h-10 rounded-xl" />
               <div>
-                <h1 className="text-xl font-bold">Defence Cyber Command</h1>
+                <h1 className="text-xl font-bold">QUANTUM KAVACH</h1>
                 <div className="flex items-center gap-2 text-sm text-muted-foreground">
                   <span className={getBranchColor(userInfo.branch)}>{getBranchName(userInfo.branch)}</span>
                   <span>•</span>
