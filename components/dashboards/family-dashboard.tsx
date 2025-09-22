@@ -57,9 +57,9 @@ export function FamilyDashboard({ userInfo }: FamilyDashboardProps) {
         <div className="container mx-auto px-4 py-4">
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-4">
-              <Heart className="h-8 w-8 text-accent" />
+              <img src="./logo.png" alt="logo" className="w-10 h-10 rounded-xl" />
               <div>
-                <h1 className="text-xl font-bold">Family Support Portal</h1>
+                <h1 className="text-xl font-bold">QUANTUM KAVACH</h1>
                 <p className="text-sm text-muted-foreground">Defence Family Cyber Safety</p>
               </div>
             </div>
